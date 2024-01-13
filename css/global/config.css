@@ -47,3 +47,18 @@ body{
   grid-column: 1 / 4;
 }
 
+@media (max-width: 700px){
+  body{
+    grid-template-columns: 1fr;
+  }
+
+  .grid-section{
+    grid-column: 1;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+  }
+
+  .grid-section h1{
+    font-size: 3rem;
+  }
+}

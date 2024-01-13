@@ -48,3 +48,10 @@
 .animais-desc section{
   margin-bottom: 3rem;
 }
+
+
+@media(max-width: 700px){
+  .animais-lista{
+    grid-column: 1;
+  }
+}
