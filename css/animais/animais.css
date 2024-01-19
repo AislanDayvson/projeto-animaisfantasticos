@@ -37,6 +37,10 @@
   border-right: 4px solid #faf6ed;
 }
 
+.animais-lista li{
+  cursor: pointer;
+}
+
 .animais-lista::-webkit-scrollbar-track{
   background: #faf6ed;
 }
